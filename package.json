@@ -3,7 +3,7 @@
   "main": "index.js",
   "description": "Scalable and fast leaderboard api with redis",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "jest --watchAll --verbose --runInBand --config ./jest.config.json"
   },
   "repository": {
