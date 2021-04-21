@@ -1,0 +1,26 @@
+{
+  "name": "leaderboard-avin",
+  "main": "index.js",
+  "description": "Scalable and fast leaderboard api with redis",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll --verbose --runInBand --config ./jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umutavin/leaderboard-api.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "random-country": "^1.0.1",
+    "random-name": "^0.1.2",
+    "redis": "^3.1.0",
+    "redis-mock": "^0.56.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
